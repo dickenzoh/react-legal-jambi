@@ -1,0 +1,27 @@
+.herobann{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 0 10px 50px;
+      background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../../images/heroImg.jpg);
+      background-position: center;
+      background-size: cover;
+      background-attachment: fixed;
+  }
+  
+  .herobann .button {
+    margin: 400px 0 0 0px;
+    width: 200px;
+    height: 30px;
+    border-radius: 25px;
+    background-color: #82ffa1;
+    border: 1px solid #82ffa1;
+    color: #333;
+  }
+  
+  .herobann .button:hover {
+    background-color:  rgb(100, 235, 22);
+    border: 1px solid  rgb(100, 235, 22);
+    transform: scale(1.  1)
+  }
