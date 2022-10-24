@@ -10,6 +10,8 @@ import Aboutus from "../Aboutus/Aboutus";
 import Customer from "../Customer/Customer";
 import Testimonials from "../Testimonials/Testimonial";
 import "./style.css";
+import Swipper from "../Customer/Swipper";
+import Testi from "../Testimonials/Testi";
 
 function App() {
   return (
@@ -102,7 +104,7 @@ function App() {
             <Typography gutterBottom variant="h2" component="h2" align="center">
               Customers
             </Typography>
-            <Customer />
+            <Swipper />
           </Paper>
           <Paper
             id="testimonials"
@@ -116,7 +118,7 @@ function App() {
             <Typography variant="h2" component="h2" align="center">
               Testimonials
             </Typography>
-            <Testimonials />
+            <Testi />
           </Paper>
           <Paper
             id="about us"
